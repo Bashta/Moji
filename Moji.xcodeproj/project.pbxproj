@@ -17,6 +17,7 @@
 		FB27DD451E17775100F37F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD3B1E17775100F37F69 /* AppDelegate.swift */; };
 		FB27DD471E17775100F37F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD3F1E17775100F37F69 /* LaunchScreen.storyboard */; };
 		FB27DD481E17775100F37F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD411E17775100F37F69 /* Main.storyboard */; };
+		FB27DD4E1E177B0700F37F69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD4D1E177B0700F37F69 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		FB27DD3C1E17775100F37F69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB27DD401E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB27DD421E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB27DD4D1E177B0700F37F69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			children = (
 				FB27DD3B1E17775100F37F69 /* AppDelegate.swift */,
 				FB27DD3C1E17775100F37F69 /* Info.plist */,
+				FB27DD4D1E177B0700F37F69 /* GoogleService-Info.plist */,
 			);
 			path = Suporting;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB27DD471E17775100F37F69 /* LaunchScreen.storyboard in Resources */,
+				FB27DD4E1E177B0700F37F69 /* GoogleService-Info.plist in Resources */,
 				FB27DD431E17775100F37F69 /* Assets.xcassets in Resources */,
 				FB27DD481E17775100F37F69 /* Main.storyboard in Resources */,
 			);

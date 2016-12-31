@@ -18,6 +18,7 @@
 		FB27DD471E17775100F37F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD3F1E17775100F37F69 /* LaunchScreen.storyboard */; };
 		FB27DD481E17775100F37F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD411E17775100F37F69 /* Main.storyboard */; };
 		FB27DD4E1E177B0700F37F69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD4D1E177B0700F37F69 /* GoogleService-Info.plist */; };
+		FB27DD501E177DE000F37F69 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB27DD4F1E177DE000F37F69 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FB27DD401E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB27DD421E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB27DD4D1E177B0700F37F69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB27DD4F1E177DE000F37F69 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB27DD501E177DE000F37F69 /* AdSupport.framework in Frameworks */,
 				5C72157F7C0913DF8B08C95B /* Pods_Moji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +97,7 @@
 		337853383A78E2A8E164DAB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB27DD4F1E177DE000F37F69 /* AdSupport.framework */,
 				281CC3E84CA311D5BE17C407 /* Pods_Moji.framework */,
 				E99472FAACBAB7CF8047F0C9 /* Pods_MojiTests.framework */,
 				66EB2F799BAD61F9F3AE8A94 /* Pods_MojiUITests.framework */,
@@ -245,6 +249,7 @@
 				FB27DD001E17764700F37F69 /* Resources */,
 				20487748B4B859F19F238C89 /* [CP] Embed Pods Frameworks */,
 				A8D0C4AD9D35953A102BC923 /* [CP] Copy Pods Resources */,
+				FB27DD511E17815C00F37F69 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -509,6 +514,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		FB27DD511E17815C00F37F69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 9f18d825f4d4e77735b5bc9e3bed78959c905ec4 67479f1753bc429107cdd6a2bc0e5b982b6d5eb0834833cf08e30e33e4c684dd";
 		};
 /* End PBXShellScriptBuildPhase section */
 

@@ -5,6 +5,8 @@ target 'Moji' do
   use_frameworks!
   
   pod 'Firebase/Core'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'MojiTests' do
     inherit! :search_paths

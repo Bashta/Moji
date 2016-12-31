@@ -1,0 +1,6 @@
+framework module Pods_MojiTests {
+  umbrella header "Pods-MojiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

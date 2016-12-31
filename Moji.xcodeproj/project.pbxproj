@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB27DD061E17764700F37F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD051E17764700F37F69 /* AppDelegate.swift */; };
-		FB27DD081E17764700F37F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD071E17764700F37F69 /* ViewController.swift */; };
-		FB27DD0B1E17764700F37F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD091E17764700F37F69 /* Main.storyboard */; };
-		FB27DD0D1E17764700F37F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD0C1E17764700F37F69 /* Assets.xcassets */; };
-		FB27DD101E17764700F37F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD0E1E17764700F37F69 /* LaunchScreen.storyboard */; };
+		0C4D5D2D1B73C2F2D637DA46 /* Pods_MojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99472FAACBAB7CF8047F0C9 /* Pods_MojiTests.framework */; };
+		5C72157F7C0913DF8B08C95B /* Pods_Moji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281CC3E84CA311D5BE17C407 /* Pods_Moji.framework */; };
+		654034C65665013B05D76038 /* Pods_MojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EB2F799BAD61F9F3AE8A94 /* Pods_MojiUITests.framework */; };
 		FB27DD1B1E17764700F37F69 /* MojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD1A1E17764700F37F69 /* MojiTests.swift */; };
 		FB27DD261E17764700F37F69 /* MojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD251E17764700F37F69 /* MojiUITests.swift */; };
+		FB27DD431E17775100F37F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD341E17775100F37F69 /* Assets.xcassets */; };
+		FB27DD441E17775100F37F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD361E17775100F37F69 /* ViewController.swift */; };
+		FB27DD451E17775100F37F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27DD3B1E17775100F37F69 /* AppDelegate.swift */; };
+		FB27DD471E17775100F37F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD3F1E17775100F37F69 /* LaunchScreen.storyboard */; };
+		FB27DD481E17775100F37F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB27DD411E17775100F37F69 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281CC3E84CA311D5BE17C407 /* Pods_Moji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EB2F799BAD61F9F3AE8A94 /* Pods_MojiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MojiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C642FA66A74F139CBB84349 /* Pods-MojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MojiUITests/Pods-MojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA0F39C7FD4C07E2F105A02 /* Pods-Moji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moji/Pods-Moji.debug.xcconfig"; sourceTree = "<group>"; };
+		999BD8E6674789A193479AA0 /* Pods-Moji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moji.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moji/Pods-Moji.release.xcconfig"; sourceTree = "<group>"; };
+		D637176A0D077F4D274560E8 /* Pods-MojiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MojiUITests/Pods-MojiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E17BA77AB3B5F3A69E902F61 /* Pods-MojiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MojiTests/Pods-MojiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E99472FAACBAB7CF8047F0C9 /* Pods_MojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0957207DCC6A73C09EC8B23 /* Pods-MojiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MojiTests/Pods-MojiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB27DD021E17764700F37F69 /* Moji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moji.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB27DD051E17764700F37F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB27DD071E17764700F37F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB27DD0A1E17764700F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB27DD0C1E17764700F37F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB27DD0F1E17764700F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB27DD111E17764700F37F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB27DD161E17764700F37F69 /* MojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB27DD1A1E17764700F37F69 /* MojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiTests.swift; sourceTree = "<group>"; };
 		FB27DD1C1E17764700F37F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB27DD211E17764700F37F69 /* MojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB27DD251E17764700F37F69 /* MojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojiUITests.swift; sourceTree = "<group>"; };
 		FB27DD271E17764700F37F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB27DD341E17775100F37F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB27DD361E17775100F37F69 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB27DD3B1E17775100F37F69 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB27DD3C1E17775100F37F69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB27DD401E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB27DD421E17775100F37F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C72157F7C0913DF8B08C95B /* Pods_Moji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4D5D2D1B73C2F2D637DA46 /* Pods_MojiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654034C65665013B05D76038 /* Pods_MojiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		337853383A78E2A8E164DAB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281CC3E84CA311D5BE17C407 /* Pods_Moji.framework */,
+				E99472FAACBAB7CF8047F0C9 /* Pods_MojiTests.framework */,
+				66EB2F799BAD61F9F3AE8A94 /* Pods_MojiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F882B5AF33E7F38DAEC99258 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0F39C7FD4C07E2F105A02 /* Pods-Moji.debug.xcconfig */,
+				999BD8E6674789A193479AA0 /* Pods-Moji.release.xcconfig */,
+				F0957207DCC6A73C09EC8B23 /* Pods-MojiTests.debug.xcconfig */,
+				E17BA77AB3B5F3A69E902F61 /* Pods-MojiTests.release.xcconfig */,
+				6C642FA66A74F139CBB84349 /* Pods-MojiUITests.debug.xcconfig */,
+				D637176A0D077F4D274560E8 /* Pods-MojiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB27DCF91E17764700F37F69 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				FB27DD191E17764700F37F69 /* MojiTests */,
 				FB27DD241E17764700F37F69 /* MojiUITests */,
 				FB27DD031E17764700F37F69 /* Products */,
+				F882B5AF33E7F38DAEC99258 /* Pods */,
+				337853383A78E2A8E164DAB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,13 @@
 		FB27DD041E17764700F37F69 /* Moji */ = {
 			isa = PBXGroup;
 			children = (
-				FB27DD051E17764700F37F69 /* AppDelegate.swift */,
-				FB27DD071E17764700F37F69 /* ViewController.swift */,
-				FB27DD091E17764700F37F69 /* Main.storyboard */,
-				FB27DD0C1E17764700F37F69 /* Assets.xcassets */,
-				FB27DD0E1E17764700F37F69 /* LaunchScreen.storyboard */,
-				FB27DD111E17764700F37F69 /* Info.plist */,
+				FB27DD331E17775100F37F69 /* Assets */,
+				FB27DD351E17775100F37F69 /* Controler */,
+				FB27DD371E17775100F37F69 /* Extensions */,
+				FB27DD381E17775100F37F69 /* Helpers */,
+				FB27DD391E17775100F37F69 /* Model */,
+				FB27DD3A1E17775100F37F69 /* Suporting */,
+				FB27DD3D1E17775100F37F69 /* View */,
 			);
 			path = Moji;
 			sourceTree = "<group>";
@@ -125,6 +166,69 @@
 			path = MojiUITests;
 			sourceTree = "<group>";
 		};
+		FB27DD331E17775100F37F69 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB27DD341E17775100F37F69 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FB27DD351E17775100F37F69 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				FB27DD361E17775100F37F69 /* ViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		FB27DD371E17775100F37F69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB27DD381E17775100F37F69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FB27DD391E17775100F37F69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB27DD3A1E17775100F37F69 /* Suporting */ = {
+			isa = PBXGroup;
+			children = (
+				FB27DD3B1E17775100F37F69 /* AppDelegate.swift */,
+				FB27DD3C1E17775100F37F69 /* Info.plist */,
+			);
+			path = Suporting;
+			sourceTree = "<group>";
+		};
+		FB27DD3D1E17775100F37F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB27DD3E1E17775100F37F69 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB27DD3E1E17775100F37F69 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB27DD3F1E17775100F37F69 /* LaunchScreen.storyboard */,
+				FB27DD411E17775100F37F69 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB27DD2A1E17764700F37F69 /* Build configuration list for PBXNativeTarget "Moji" */;
 			buildPhases = (
+				E8106E62E099C21511F1AD77 /* [CP] Check Pods Manifest.lock */,
 				FB27DCFE1E17764700F37F69 /* Sources */,
 				FB27DCFF1E17764700F37F69 /* Frameworks */,
 				FB27DD001E17764700F37F69 /* Resources */,
+				20487748B4B859F19F238C89 /* [CP] Embed Pods Frameworks */,
+				A8D0C4AD9D35953A102BC923 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB27DD2D1E17764700F37F69 /* Build configuration list for PBXNativeTarget "MojiTests" */;
 			buildPhases = (
+				7554C0262659E4B4A1E7DF07 /* [CP] Check Pods Manifest.lock */,
 				FB27DD121E17764700F37F69 /* Sources */,
 				FB27DD131E17764700F37F69 /* Frameworks */,
 				FB27DD141E17764700F37F69 /* Resources */,
+				72777611E4166A28BB03B7AC /* [CP] Embed Pods Frameworks */,
+				8388898EA8F300EB7B248BC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB27DD301E17764700F37F69 /* Build configuration list for PBXNativeTarget "MojiUITests" */;
 			buildPhases = (
+				04089B78DDAD661605779C1C /* [CP] Check Pods Manifest.lock */,
 				FB27DD1D1E17764700F37F69 /* Sources */,
 				FB27DD1E1E17764700F37F69 /* Frameworks */,
 				FB27DD1F1E17764700F37F69 /* Resources */,
+				CA39A26A6FA1D0C0A55E1FFB /* [CP] Embed Pods Frameworks */,
+				A874886E16C41750C62478AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +348,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB27DD101E17764700F37F69 /* LaunchScreen.storyboard in Resources */,
-				FB27DD0D1E17764700F37F69 /* Assets.xcassets in Resources */,
-				FB27DD0B1E17764700F37F69 /* Main.storyboard in Resources */,
+				FB27DD471E17775100F37F69 /* LaunchScreen.storyboard in Resources */,
+				FB27DD431E17775100F37F69 /* Assets.xcassets in Resources */,
+				FB27DD481E17775100F37F69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +370,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04089B78DDAD661605779C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20487748B4B859F19F238C89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moji/Pods-Moji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72777611E4166A28BB03B7AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MojiTests/Pods-MojiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7554C0262659E4B4A1E7DF07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8388898EA8F300EB7B248BC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MojiTests/Pods-MojiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A874886E16C41750C62478AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MojiUITests/Pods-MojiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D0C4AD9D35953A102BC923 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moji/Pods-Moji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA39A26A6FA1D0C0A55E1FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MojiUITests/Pods-MojiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8106E62E099C21511F1AD77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB27DCFE1E17764700F37F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB27DD081E17764700F37F69 /* ViewController.swift in Sources */,
-				FB27DD061E17764700F37F69 /* AppDelegate.swift in Sources */,
+				FB27DD451E17775100F37F69 /* AppDelegate.swift in Sources */,
+				FB27DD441E17775100F37F69 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +550,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB27DD091E17764700F37F69 /* Main.storyboard */ = {
+		FB27DD3F1E17775100F37F69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB27DD0A1E17764700F37F69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FB27DD0E1E17764700F37F69 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB27DD0F1E17764700F37F69 /* Base */,
+				FB27DD401E17775100F37F69 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB27DD411E17775100F37F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB27DD421E17775100F37F69 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -358,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,10 +664,12 @@
 		};
 		FB27DD2B1E17764700F37F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA0F39C7FD4C07E2F105A02 /* Pods-Moji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
-				INFOPLIST_FILE = Moji/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Moji/Suporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Moji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +679,12 @@
 		};
 		FB27DD2C1E17764700F37F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999BD8E6674789A193479AA0 /* Pods-Moji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
-				INFOPLIST_FILE = Moji/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Moji/Suporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.nativesolutions.Moji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +694,7 @@
 		};
 		FB27DD2E1E17764700F37F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0957207DCC6A73C09EC8B23 /* Pods-MojiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +710,7 @@
 		};
 		FB27DD2F1E17764700F37F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17BA77AB3B5F3A69E902F61 /* Pods-MojiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +726,7 @@
 		};
 		FB27DD311E17764700F37F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C642FA66A74F139CBB84349 /* Pods-MojiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
@@ -483,6 +741,7 @@
 		};
 		FB27DD321E17764700F37F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D637176A0D077F4D274560E8 /* Pods-MojiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5JWGM7A2T3;
@@ -514,6 +773,7 @@
 				FB27DD2C1E17764700F37F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB27DD2D1E17764700F37F69 /* Build configuration list for PBXNativeTarget "MojiTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +782,7 @@
 				FB27DD2F1E17764700F37F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB27DD301E17764700F37F69 /* Build configuration list for PBXNativeTarget "MojiUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +791,7 @@
 				FB27DD321E17764700F37F69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

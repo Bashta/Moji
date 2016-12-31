@@ -1,0 +1,6 @@
+framework module Pods_Moji {
+  umbrella header "Pods-Moji-umbrella.h"
+
+  export *
+  module * { export * }
+}
